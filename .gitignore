@@ -1,0 +1,6 @@
+.settings/
+.vscode/
+node_modules/
+bower_components/
+js/bld
+sass/bld
