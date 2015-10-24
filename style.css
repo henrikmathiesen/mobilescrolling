@@ -22,19 +22,20 @@
 body {
 	margin-top:0;
 	margin-bottom:0;
-}
-
-body.sticky {
 	padding-top:40px;
 }
 
 .debug-bar {
 	height: 40px;
 	width: 100%;
-	background-color: #eee;
+	background-color: palegoldenrod;
 	font-family: Courier New, Courier, monospace;
 	text-align: center;
 	line-height: 40px;
+	
+	position: absolute;
+	top:0;
+	left: 0;
 }
 
 .debug-bar.sticky {
@@ -43,7 +44,7 @@ body.sticky {
 	position: fixed;
 	top:0;
 	left: 0;
-	background-color: palegoldenrod;
+	color:red;
 }
 
 .debug-bar.sticky.unsticky {
@@ -52,7 +53,7 @@ body.sticky {
 	position: fixed;
 	top:-40px;
 	left: 0;
-	background-color: palegoldenrod;
+	color:green;
 }
 
 img {
