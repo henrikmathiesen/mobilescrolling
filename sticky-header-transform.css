@@ -1,0 +1,28 @@
+body {
+	margin:0;
+	padding-top: 40px;										/* # */
+}
+
+.debug-bar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 40px;											/* # */
+	background-color: pink;
+	text-align: center;
+	line-height: 40px;
+	
+	/* Default state */
+	
+	-webkit-transition: -webkit-transform linear 0.25s;
+    transition: transform linear 0.25s;
+    
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.debug-bar.unsticky {
+	-webkit-transform: translateY(-40px);
+	transform: translateY(-40px);
+}

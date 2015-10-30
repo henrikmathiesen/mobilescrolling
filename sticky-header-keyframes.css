@@ -1,9 +1,3 @@
-/*  
-
-	STICKY HEADER ANIMATION WITH KEY FRAMES
-
-*/
-
 @-webkit-keyframes up {
 	from    { top: 0; }
     to      { top: -40px; }
