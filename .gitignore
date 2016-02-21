@@ -2,5 +2,6 @@
 .vscode/
 node_modules/
 bower_components/
+typings/
 js/bld
 sass/bld
